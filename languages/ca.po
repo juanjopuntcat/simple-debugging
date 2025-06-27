@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Debugging 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/juanjopuntcat/simple-debugging\n"
+"POT-Creation-Date: 2025-06-27 00:00+0000\n"
+"PO-Revision-Date: 2025-06-27 18:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: simple-debugging.php:33
+msgid "Simple Debugging"
+msgstr "Simple Debugging"
+
+#: simple-debugging.php:52
+msgid "General"
+msgstr "General"
+
+#: simple-debugging.php:53
+msgid "Roles"
+msgstr "Rols"
+
+#: simple-debugging.php:54
+msgid "Log"
+msgstr "Registre"
+
+#: simple-debugging.php:97
+msgid "Settings saved."
+msgstr "Preferències desades."
+
+#: simple-debugging.php:100
+msgid "Reset to defaults?"
+msgstr "Restablir a valors predefinits?"
+
+#: simple-debugging.php:129
+msgid "You do not have permission to access this page."
+msgstr "No teniu permís per accedir a aquesta pàgina."
+
+#: simple-debugging.php:154
+msgid "Unable to write to wp-config.php."
+msgstr "No s'ha pogut escriure al fitxer wp-config.php."
+
+#: simple-debugging.php:155
+msgid ""
+"Please add the following block above the require_once line in your wp-"
+"config.php:"
+msgstr ""
+"Si us plau, afegiu el següent bloc de codi abans de la línia require_once al "
+"vostre fitxer wp-config.php:"
+
+#: simple-debugging.php:246
+msgid "Unable to read debug.log."
+msgstr "No s'ha pogut llegir el fitxer debug.log."
+
+#: simple-debugging.php:332
+msgid "Settings"
+msgstr "Eines"
+
+#: simple-debugging.php:333
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+"Esteu segurs de que voleu restablir totes les preferències als valors per "
+"defecte?"
+
+#: class-sd-tab-general.php:19
+msgid "Configure main debug settings below."
+msgstr "Configureu les preferències principals de debug aquí."
+
+#: class-sd-tab-general.php:24
+msgid "Enable WP_DEBUG"
+msgstr "Activar WP_DEBUG"
+
+#: class-sd-tab-general.php:25
+msgid "Turns on WordPress internal debugging."
+msgstr "Activa el sistema de registre intern del WordPress."
+
+#: class-sd-tab-general.php:31
+msgid "Log to debug.log"
+msgstr "Desa a debug.log"
+
+#: class-sd-tab-general.php:32
+msgid "Saves errors to wp-content/debug.log."
+msgstr "Desa els errors al fitxer wp-content/debug.log."
+
+#: class-sd-tab-general.php:38
+msgid "Display errors"
+msgstr "Mostra els errors"
+
+#: class-sd-tab-general.php:39
+msgid "Shows errors on-site (not for live sites)."
+msgstr ""
+"Mostra els errors al front-end (no recomanat per a llocs web en producció)."
+
+#: class-sd-tab-roles.php:12
+msgid "Set role-based access levels."
+msgstr "Configura els nivells d'accés de cada rol."
+
+#: class-sd-tab-roles.php:18
+msgid "Role"
+msgstr "Rol"
+
+#: class-sd-tab-roles.php:19
+msgid "Access"
+msgstr "Accés"
+
+#: class-sd-tab-roles.php:29
+msgid "None"
+msgstr "Cap"
+
+#: class-sd-tab-roles.php:30
+msgid "Read"
+msgstr "Lectura"
+
+#: class-sd-tab-roles.php:31
+msgid "Write"
+msgstr "Escriptura"
+
+#: class-sd-tab-log.php:17
+msgid ""
+"View, filter, and sort your debug.log entries below. You can paginate, "
+"search, and order by any column. Errors are shown as they appear in your log "
+"file."
+msgstr ""
+"Visualitzeu, filtreu i ordeneu les entrades del vostre fitxer debug.log "
+"aquí. Podeu paginar, cercar i ordenar per qualsevol columna. Les entrades es "
+"mostren tal i com apareixen al vostre fitxer de registre."
+
+#: class-sd-tab-log.php:29
+msgid "Show"
+msgstr "Mostra"
+
+#: class-sd-tab-log.php:37
+msgid "Filter log entries…"
+msgstr "Filtra entrades de registre..."
+
+#: class-sd-tab-log.php:43
+msgid "Timestamp"
+msgstr "Marca de temps"
+
+#: class-sd-tab-log.php:44
+msgid "Title"
+msgstr "Títol"
+
+#: class-sd-tab-log.php:45
+msgid "File"
+msgstr "Fitxer"
+
+#: class-sd-tab-log.php:46
+msgid "Line"
+msgstr "Línia"
+
+#: class-sd-tab-log.php:47
+msgid "Description"
+msgstr "Descripció"
+
+#: class-sd-tab-log.php:110
+msgid "No readable debug.log found."
+msgstr "No s'ha trobat cap fitxer debug.log llegible."
+
+#: class-sd-tab-log.php:141
+msgid "Loading log entries..."
+msgstr "Llegint les entrades del registre..."
+
+#: class-sd-tab-log.php:142
+msgid "No log entries found."
+msgstr "No s'han trobat entrades al registre."
+
+#: class-sd-tab-log.php:143
+msgid "Page"
+msgstr "Pàgina"
+
+#: class-sd-tab-log.php:144
+msgid "of"
+msgstr "de"
+
+#: class-sd-tab-log.php:145
+msgid "Prev"
+msgstr "Anterior"
+
+#: class-sd-tab-log.php:146
+msgid "Next"
+msgstr "Següent"

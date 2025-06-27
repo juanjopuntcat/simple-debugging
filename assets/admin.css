@@ -1,0 +1,85 @@
+/* --- Simple Debugging plugin admin styles --- */
+
+.wp-list-table th, .wp-list-table td {
+    padding: 8px 12px;
+}
+.wp-list-table {
+    font-size: 13px;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
+}
+.wp-list-table th {
+    background: #f6f7f7;
+    color: #23282d;
+    border-bottom: 1px solid #ccd0d4;
+    vertical-align: bottom;
+    font-weight: 600;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+}
+.wp-list-table th .sd-sort-icon {
+    font-size: 13px;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+}
+.wp-list-table tr:hover td {
+    background: #f0f6fa;
+}
+#sd-log-table th[data-col]:hover {
+    color: #0073aa;
+}
+#sd-log-table th[data-col] {
+    cursor: pointer;
+}
+#sd-log-table .column-primary {
+    font-weight: 600;
+}
+#sd-log-filter {
+    margin-bottom: 0.5em;
+    padding: 4px 8px;
+    border: 1px solid #ccd0d4;
+    border-radius: 2px;
+    min-width: 180px;
+    font-size: 13px;
+}
+#sd-log-controls {
+    margin-bottom: 12px;
+}
+#sd-log-pagination a {
+    color: #0073aa;
+    text-decoration: none;
+    padding: 0 4px;
+}
+#sd-log-pagination a:hover {
+    text-decoration: underline;
+}
+#sd-log-pagination b {
+    color: #23282d;
+    padding: 0 4px;
+}
+#sd-log-size {
+    font-size: 13px;
+    margin-left: 2px;
+    padding: 2px 4px;
+}
+.sd-list-table-filter {
+    vertical-align: middle;
+}
+pre, code {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+@media (max-width: 600px) {
+    .wp-list-table th, .wp-list-table td {
+        padding: 6px 6px;
+        font-size: 12px;
+    }
+    #sd-log-filter {
+        width: 100%;
+    }
+}
